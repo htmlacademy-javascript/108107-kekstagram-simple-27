@@ -11,8 +11,8 @@ const getRandomNumber = (min, max) => {
   return NaN;
 };
 
-console.log(getRandomNumber(200, 400));
+getRandomNumber(200, 400);
 
 const checkMaxStringLength = (string, limit) => string.length <= limit;
 
-console.log(checkMaxStringLength('hello', 5));
+checkMaxStringLength('hello', 5);
